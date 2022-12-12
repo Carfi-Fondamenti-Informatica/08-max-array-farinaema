@@ -5,12 +5,13 @@ int main(){
 
     int i, a;
     cin >> a;
-    float m[a];
+    float m[a], c;
     for(i=0; i<a; i++){
 
         cin >> m[i];
     }
-
-    cout << max(m, a) << endl;
+    
+    c=max(m, a);
+    cout << c << endl;
 
 }
